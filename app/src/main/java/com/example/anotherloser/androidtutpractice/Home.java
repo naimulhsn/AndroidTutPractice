@@ -61,5 +61,9 @@ public class Home extends AppCompatActivity {
         Intent i10=new Intent(getApplicationContext(),TextSwitch.class);
         startActivity(i10);
     }
+    public void OpenP11(View view) {
+        Intent i11=new Intent(getApplicationContext(),ImageSwitcherr.class);
+        startActivity(i11);
+    }
 
 }

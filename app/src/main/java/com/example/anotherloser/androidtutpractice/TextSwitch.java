@@ -50,8 +50,7 @@ public class TextSwitch extends AppCompatActivity {
             public void onClick(View v) {
                 textSwitcher.setInAnimation(inright);
                 textSwitcher.setOutAnimation(outleft);
-                textSwitcher.setText(TEXTS[mPos]);
-                mPos++;
+                textSwitcher.setText(TEXTS[mPos++]);
                 if(mPos>17)mPos=0;
                 //Toast.makeText(getApplicationContext(),"next",Toast.LENGTH_SHORT).show();
             }
@@ -61,8 +60,7 @@ public class TextSwitch extends AppCompatActivity {
             public void onClick(View v) {
                 textSwitcher.setInAnimation(inleft);
                 textSwitcher.setOutAnimation(outright);
-                textSwitcher.setText(TEXTS[mPos]);
-                mPos--;
+                textSwitcher.setText(TEXTS[mPos--]);
                 if(mPos<0)mPos=17;
                 //Toast.makeText(getApplicationContext(),"prev",Toast.LENGTH_SHORT).show();
             }
