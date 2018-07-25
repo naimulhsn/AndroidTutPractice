@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AndroidTutPractice</string>
+    <string name="P1name">ColourSeek</string>
+    <string name="colorseek">ColorSeek</string>
+    <string name="seekbar">SeekBar</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="rating_bar">Rating Bar</string>
+    <string name="progressbar">ProgressBar</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="spinner">Spinner</string>
+    <string name="switchtoggle">SwitchToggle</string>
+    <string name="autocomlete">AutoComlete</string>
+    <string name="RandomNames">Text Input: \n  Abel, Anik, Alim, Bakul ,Bolod, Barek, Bawal ,Badal, Chyanu, Dengu, Emu, Puter, Tempu,
+        Alom, Pagla, Pagli, Yeasiro, Robert</string>
+    <string name="multiacompl">MultiACompl</string>
+    <string name="welcome">Welcome Buddy</string>
+    <string name="textswitcher">TextSwitcher</string>
+    <string name="text_switcher">Text Switcher</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="imageswitcher">ImageSwitcher</string>
+</resources>
