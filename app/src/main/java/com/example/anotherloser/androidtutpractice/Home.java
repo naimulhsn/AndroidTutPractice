@@ -65,5 +65,9 @@ public class Home extends AppCompatActivity {
         Intent i11=new Intent(getApplicationContext(),ImageSwitcherr.class);
         startActivity(i11);
     }
+    public void OpenP12(View view) {
+        Intent i12=new Intent(getApplicationContext(),FlipperAdepterr.class);
+        startActivity(i12);
+    }
 
 }

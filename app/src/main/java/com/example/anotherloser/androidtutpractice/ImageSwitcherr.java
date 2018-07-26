@@ -44,6 +44,8 @@ public class ImageSwitcherr extends AppCompatActivity {
                 return imageView;
             }
         });
+
+        imageSwitcher.setAnimateFirstView(true);
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

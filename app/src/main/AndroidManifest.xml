@@ -27,7 +27,8 @@
         <activity android:name=".MulAComplete" />
         <activity android:name=".SplashScreen" />
         <activity android:name=".TextSwitch" />
-        <activity android:name=".ImageSwitcherr"></activity>
+        <activity android:name=".ImageSwitcherr" />
+        <activity android:name=".FlipperAdepterr" />
     </application>
 
 </manifest>
