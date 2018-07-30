@@ -5,14 +5,16 @@
 
     <ImageView
         android:id="@+id/idFlipperImage"
-        android:layout_width="match_parent"
-        android:layout_height="400dp" />
+        android:layout_width="700dp"
+        android:layout_height="700dp"
+        android:src="@mipmap/ic_launcher"/>
 
     <TextView
         android:id="@+id/idFlipperText"
+        android:text="@string/RandomNames"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="50dp"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp" />
 </RelativeLayout>

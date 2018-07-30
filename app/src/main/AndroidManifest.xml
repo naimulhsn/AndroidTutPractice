@@ -29,6 +29,7 @@
         <activity android:name=".TextSwitch" />
         <activity android:name=".ImageSwitcherr" />
         <activity android:name=".FlipperAdepterr" />
+        <activity android:name=".CircleImage"></activity>
     </application>
 
 </manifest>

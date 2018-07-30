@@ -23,4 +23,6 @@
     <string name="previous">Previous</string>
     <string name="next">Next</string>
     <string name="imageswitcher">ImgSwitcher</string>
+    <string name="flipperadapter">FlipperAdapter</string>
+    <string name="adapterflipper">AdapterFlipper</string>
 </resources>

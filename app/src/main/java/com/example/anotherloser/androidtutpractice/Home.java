@@ -69,5 +69,9 @@ public class Home extends AppCompatActivity {
         Intent i12=new Intent(getApplicationContext(),FlipperAdepterr.class);
         startActivity(i12);
     }
+    public void OpenP13(View view) {
+        Intent i13=new Intent(getApplicationContext(),CircleImage.class);
+        startActivity(i13);
+    }
 
 }

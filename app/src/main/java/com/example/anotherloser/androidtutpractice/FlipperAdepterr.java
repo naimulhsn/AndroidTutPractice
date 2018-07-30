@@ -1,5 +1,6 @@
 package com.example.anotherloser.androidtutpractice;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,16 +15,19 @@ import android.widget.TextView;
 import java.util.zip.Inflater;
 
 public class FlipperAdepterr extends AppCompatActivity {
-    AdapterViewFlipper adapterViewFlipper;
 
-    private static final int[] IMAGES={R.drawable.ic_launcher_background,R.drawable.ic_meflatavater_svg_1,
+    private AdapterViewFlipper adapterViewFlipper;
+
+    final int[] IMAGES={R.drawable.ic_launcher_background,R.drawable.ic_meflatavater_svg_1,
             R.drawable.ic_pial_2,R.drawable.ic_sportsfestlogo1_svg};
-    private static final String[] TEXTS={"Abel","Anik","Alim","Bakul"};
+    final String[] TEXTS={"Abel","Anik","Alim","Bakul"};
+    private int mPosition=-1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flipper_adepterr);
         AdapterOfFlipper adapterOfFlipper=new AdapterOfFlipper(this,IMAGES,TEXTS);
+        adapterViewFlipper=findViewById(R.id.idadapterViewFlipper);
         adapterViewFlipper.setAdapter(adapterOfFlipper);
         adapterViewFlipper.setAutoStart(true);
     }
@@ -56,6 +60,7 @@ public class FlipperAdepterr extends AppCompatActivity {
             return 0;
         }
 
+        @SuppressLint({"InflateParams", "ViewHolder"})
         @Override
         public View getView(int position, View view, ViewGroup parent) {
             view= layoutInflater.inflate(R.layout.flipper_items,null);
@@ -65,6 +70,5 @@ public class FlipperAdepterr extends AppCompatActivity {
             imageView.setImageResource(IMAGES[position]);
             return view;
         }
-
     }
 }
